@@ -1,0 +1,68 @@
+2021-09-11 00:36:00,374 [main] INFO orangeHRM - Url is opened
+2021-09-11 00:36:00,610 [main] INFO orangeHRM - Entered username
+2021-09-11 00:36:00,662 [main] INFO orangeHRM - Entered password
+2021-09-11 00:36:04,802 [main] INFO orangeHRM - logged in
+2021-09-11 00:36:08,769 [main] INFO orangeHRM - logged out
+2021-09-11 08:53:29,598 [main] INFO orangeHRM - Url is opened
+2021-09-11 08:59:29,554 [main] INFO orangeHRM - Url is opened
+2021-09-11 09:04:06,973 [main] INFO orangeHRM - Url is opened
+2021-09-11 09:05:32,476 [main] INFO orangeHRM - Url is opened
+2021-09-11 09:09:14,474 [main] INFO orangeHRM - Url is opened
+2021-09-11 09:09:14,894 [main] INFO orangeHRM - Entered username
+2021-09-11 09:09:15,002 [main] INFO orangeHRM - Entered password
+2021-09-11 09:09:19,476 [main] INFO orangeHRM - navigate to next page
+2021-09-11 09:09:22,685 [main] INFO orangeHRM - clicked on APply Leave
+2021-09-11 09:09:22,750 [main] INFO orangeHRM - warning message is displayed
+2021-09-11 09:09:26,935 [main] INFO orangeHRM - logged out
+2021-09-11 09:10:54,223 [main] INFO orangeHRM - Url is opened
+2021-09-11 09:10:54,618 [main] INFO orangeHRM - Entered username
+2021-09-11 09:10:54,742 [main] INFO orangeHRM - Entered password
+2021-09-11 09:10:58,328 [main] INFO orangeHRM - logged in
+2021-09-11 09:11:02,621 [main] INFO orangeHRM - logged out
+2021-09-11 09:11:08,662 [main] INFO orangeHRM - Url is opened
+2021-09-11 09:11:09,836 [main] INFO orangeHRM - username is provided
+2021-09-11 09:11:09,936 [main] INFO orangeHRM - password is provided
+2021-09-11 09:11:25,222 [main] INFO orangeHRM - login passed
+2021-09-11 09:11:29,685 [main] INFO orangeHRM - username is provided
+2021-09-11 09:11:29,792 [main] INFO orangeHRM - password is provided
+2021-09-11 09:11:38,052 [main] INFO orangeHRM - Url is opened
+2021-09-11 09:11:38,284 [main] INFO orangeHRM - Entered username
+2021-09-11 09:11:38,353 [main] INFO orangeHRM - Entered password
+2021-09-11 09:11:43,475 [main] INFO orangeHRM - navigate to next page
+2021-09-11 09:11:46,656 [main] INFO orangeHRM - clicked on APply Leave
+2021-09-11 09:11:46,702 [main] INFO orangeHRM - warning message is displayed
+2021-09-11 09:11:51,402 [main] INFO orangeHRM - logged out
+2021-09-11 09:14:53,223 [main] INFO orangeHRM - Url is opened
+2021-09-11 09:14:53,694 [main] INFO orangeHRM - Entered username
+2021-09-11 09:14:53,863 [main] INFO orangeHRM - Entered password
+2021-09-11 09:14:57,639 [main] INFO orangeHRM - logged in
+2021-09-11 09:15:03,247 [main] INFO orangeHRM - logged out
+2021-09-11 09:15:11,709 [main] INFO orangeHRM - Url is opened
+2021-09-11 09:15:14,292 [main] INFO orangeHRM - username is provided
+2021-09-11 09:15:14,453 [main] INFO orangeHRM - password is provided
+2021-09-11 09:15:30,198 [main] INFO orangeHRM - login passed
+2021-09-11 09:15:34,498 [main] INFO orangeHRM - username is provided
+2021-09-11 09:15:34,584 [main] INFO orangeHRM - password is provided
+2021-09-11 09:15:36,635 [main] WARN orangeHRM - try with correct credentils
+2021-09-11 09:15:45,138 [main] INFO orangeHRM - Url is opened
+2021-09-11 09:15:45,519 [main] INFO orangeHRM - Entered username
+2021-09-11 09:15:45,678 [main] INFO orangeHRM - Entered password
+2021-09-11 09:15:50,989 [main] INFO orangeHRM - navigate to next page
+2021-09-11 09:15:55,085 [main] INFO orangeHRM - clicked on APply Leave
+2021-09-11 09:15:55,139 [main] INFO orangeHRM - warning message is displayed
+2021-09-11 09:15:59,419 [main] INFO orangeHRM - logged out
+2021-09-11 09:51:01,025 [main] INFO orangeHRM - Url is opened
+2021-09-11 09:51:01,456 [main] INFO orangeHRM - Entered username
+2021-09-11 09:51:01,579 [main] INFO orangeHRM - Entered password
+2021-09-11 09:51:06,916 [main] INFO orangeHRM - logged in
+2021-09-11 09:51:11,784 [main] INFO orangeHRM - logged out
+2021-09-11 10:11:11,044 [main] INFO orangeHRM - Url is opened
+2021-09-11 10:11:11,458 [main] INFO orangeHRM - Entered username
+2021-09-11 10:11:11,566 [main] INFO orangeHRM - Entered password
+2021-09-11 10:11:16,503 [main] INFO orangeHRM - logged in
+2021-09-11 10:11:21,208 [main] INFO orangeHRM - logged out
+2021-09-11 10:39:09,591 [main] INFO orangeHRM - Url is opened
+2021-09-11 10:39:09,950 [main] INFO orangeHRM - Entered username
+2021-09-11 10:39:10,096 [main] INFO orangeHRM - Entered password
+2021-09-11 10:39:15,489 [main] INFO orangeHRM - logged in
+2021-09-11 10:39:19,716 [main] INFO orangeHRM - logged out

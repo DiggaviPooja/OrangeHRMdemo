@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="OrangeHRMDemo">
+
+    <listeners>
+        <listener class-name="com.orangehrm.Utilities.Reporting" />
+    </listeners>
+
+    <test name="OrangeHRM Test">
+       <!-- <parameter name="browser" value="chrome"></parameter> -->
+        <classes>
+             <class name="com.orangehrm.testcases.TC_LoginTest_001" />
+               <!--  <class name="com.orangehrm.testcases.TC_LoginDDT_002" /> -->
+               <!--  <class name="com.orangehrm.testcases.TC_ApplyLeave_003" /> -->
+
+        </classes>
+
+    </test>
+
+</suite>
