@@ -11,8 +11,8 @@
        <!-- <parameter name="browser" value="chrome"></parameter> -->
         <classes>
              <class name="com.orangehrm.testcases.TC_LoginTest_001" />
-               <!--  <class name="com.orangehrm.testcases.TC_LoginDDT_002" /> -->
-               <!--  <class name="com.orangehrm.testcases.TC_ApplyLeave_003" /> -->
+                 <class name="com.orangehrm.testcases.TC_LoginDDT_002" />
+                 <class name="com.orangehrm.testcases.TC_ApplyLeave_003" />
 
         </classes>
 

@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,6 +102,21 @@
                       <a href="#" panel-name="suite-OrangeHRMDemo" class="show-methods passed suite-OrangeHRMDemo"> (show)</a> <!-- show-methods passed suite-OrangeHRMDemo -->
                     </span>
                     <div class="method-list-content passed suite-OrangeHRMDemo">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OrangeHRMDemo" title="com.orangehrm.testcases.TC_ApplyLeave_003" hash-for-method="applyingLeave">applyingLeave</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OrangeHRMDemo" title="com.orangehrm.testcases.TC_LoginDDT_002" hash-for-method="loginDDT(Admin, admin456)">loginDDT(Admin, admin456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OrangeHRMDemo" title="com.orangehrm.testcases.TC_LoginDDT_002" hash-for-method="loginDDT(Admin, admin123)">loginDDT(Admin, admin123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-OrangeHRMDemo" title="com.orangehrm.testcases.TC_LoginTest_001" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
@@ -119,6 +134,45 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-OrangeHRMDemo" class="panel OrangeHRMDemo">
+          <div class="suite-OrangeHRMDemo-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.orangehrm.testcases.TC_ApplyLeave_003</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="applyingLeave">
+                  </a> <!-- applyingLeave -->
+                  <span class="method-name">applyingLeave</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRMDemo-class-passed -->
+          <div class="suite-OrangeHRMDemo-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.orangehrm.testcases.TC_LoginDDT_002</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginDDT(Admin, admin456)">
+                  </a> <!-- loginDDT(Admin, admin456) -->
+                  <span class="method-name">loginDDT</span>
+                  <span class="parameters">(Admin, admin456)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginDDT(Admin, admin123)">
+                  </a> <!-- loginDDT(Admin, admin123) -->
+                  <span class="method-name">loginDDT</span>
+                  <span class="parameters">(Admin, admin123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRMDemo-class-passed -->
           <div class="suite-OrangeHRMDemo-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -150,6 +204,8 @@
   &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;OrangeHRM Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.orangehrm.testcases.TC_LoginTest_001&quot;/&gt;
+      &lt;class name=&quot;com.orangehrm.testcases.TC_LoginDDT_002&quot;/&gt;
+      &lt;class name=&quot;com.orangehrm.testcases.TC_ApplyLeave_003&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- OrangeHRM Test --&gt;
 &lt;/suite&gt; &lt;!-- OrangeHRMDemo --&gt;
@@ -163,7 +219,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">OrangeHRM Test (1 class)</span>
+                <span class="test-name">OrangeHRM Test (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -189,16 +245,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginTest')
-data.setCell(0, 2, 'com.orangehrm.testcases.TC_LoginTest_001')
-data.setCell(0, 3, 9971);
+data.setCell(0, 1, 'loginDDT')
+data.setCell(0, 2, 'com.orangehrm.testcases.TC_LoginDDT_002')
+data.setCell(0, 3, 17847);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'applyingLeave')
+data.setCell(1, 2, 'com.orangehrm.testcases.TC_ApplyLeave_003')
+data.setCell(1, 3, 10764);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'loginTest')
+data.setCell(2, 2, 'com.orangehrm.testcases.TC_LoginTest_001')
+data.setCell(2, 3, 7828);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginDDT')
+data.setCell(3, 2, 'com.orangehrm.testcases.TC_LoginDDT_002')
+data.setCell(3, 3, 1534);
 window.suiteTableData['OrangeHRMDemo']= { tableData: data, tableDiv: 'times-div-OrangeHRMDemo'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <span class="suite-total-time">Total running time: 37 seconds</span>
               <div id="times-div-OrangeHRMDemo">
               </div> <!-- times-div-OrangeHRMDemo -->
             </div> <!-- times-div -->
@@ -231,11 +299,45 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">loginTest</span>
-                <span class="method-start">15050 ms</span>
+                <span class="method-start">5680 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">25053 ms</span>
+                <span class="method-start">13521 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangehrm.testcases.TC_LoginDDT_002</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">14220 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginDDT(Admin, admin123)</span>
+                <span class="method-start">19054 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginDDT(Admin, admin456)</span>
+                <span class="method-start">36901 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">38436 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangehrm.testcases.TC_ApplyLeave_003</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">39052 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">applyingLeave</span>
+                <span class="method-start">43503 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">54268 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

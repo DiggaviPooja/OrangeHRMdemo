@@ -14,9 +14,9 @@ public class TC_LoginDDT_002 extends BaseClass{
     public void loginDDT(String user, String password) throws InterruptedException {
         LoginPage lp = new LoginPage(driver);
         lp.setUserName(user);
-        logger.info("username is provided");
+      //  logger.info("username is provided");
         lp.setPassword(password);
-        logger.info("password is provided");
+      //  logger.info("password is provided");
         lp.clickSubmit();
 
 
@@ -26,11 +26,11 @@ public class TC_LoginDDT_002 extends BaseClass{
         {
             System.out.println("login failed try again");
            // Assert.assertTrue(false);//it should be true because ur not checking anything
-            logger.warn("try with correct credentils");
+        //    logger.warn("try with correct credentils");
         }else
         {
             Assert.assertTrue(true);
-            logger.info("login passed");
+       //     logger.info("login passed");
             lp.clickLogout();
         }
     }

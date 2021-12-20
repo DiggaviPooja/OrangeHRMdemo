@@ -1,25 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="OrangeHRMDemo" duration-ms="26530" started-at="2021-09-11T10:38:54 IST" finished-at="2021-09-11T10:39:20 IST">
+  <suite name="OrangeHRMDemo" duration-ms="55141" started-at="2021-09-18T10:12:14 IST" finished-at="2021-09-18T10:13:09 IST">
     <groups>
     </groups>
-    <test name="OrangeHRM Test" duration-ms="26530" started-at="2021-09-11T10:38:54 IST" finished-at="2021-09-11T10:39:20 IST">
-      <class name="com.orangehrm.testcases.TC_LoginTest_001">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.orangehrm.testcases.TC_LoginTest_001@86be70a]" name="setup" is-config="true" duration-ms="15021" started-at="2021-09-11T10:38:54 IST" finished-at="2021-09-11T10:39:09 IST">
+    <test name="OrangeHRM Test" duration-ms="55141" started-at="2021-09-18T10:12:14 IST" finished-at="2021-09-18T10:13:09 IST">
+      <class name="com.orangehrm.testcases.TC_ApplyLeave_003">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.orangehrm.testcases.TC_ApplyLeave_003@2353b3e6]" name="setup" is-config="true" duration-ms="4450" started-at="2021-09-18T10:12:54 IST" finished-at="2021-09-18T10:12:58 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.orangehrm.testcases.TC_LoginTest_001@86be70a]" name="loginTest" duration-ms="9971" started-at="2021-09-11T10:39:09 IST" finished-at="2021-09-11T10:39:19 IST">
+        <test-method status="PASS" signature="applyingLeave()[pri:0, instance:com.orangehrm.testcases.TC_ApplyLeave_003@2353b3e6]" name="applyingLeave" duration-ms="10764" started-at="2021-09-18T10:12:58 IST" finished-at="2021-09-18T10:13:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyingLeave -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrm.testcases.TC_ApplyLeave_003@2353b3e6]" name="tearDown" is-config="true" duration-ms="641" started-at="2021-09-18T10:13:09 IST" finished-at="2021-09-18T10:13:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangehrm.testcases.TC_ApplyLeave_003 -->
+      <class name="com.orangehrm.testcases.TC_LoginTest_001">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.orangehrm.testcases.TC_LoginTest_001@4d50efb8]" name="setup" is-config="true" duration-ms="5666" started-at="2021-09-18T10:12:15 IST" finished-at="2021-09-18T10:12:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.orangehrm.testcases.TC_LoginTest_001@4d50efb8]" name="loginTest" duration-ms="7828" started-at="2021-09-18T10:12:20 IST" finished-at="2021-09-18T10:12:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrm.testcases.TC_LoginTest_001@86be70a]" name="tearDown" is-config="true" duration-ms="1156" started-at="2021-09-11T10:39:19 IST" finished-at="2021-09-11T10:39:20 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrm.testcases.TC_LoginTest_001@4d50efb8]" name="tearDown" is-config="true" duration-ms="697" started-at="2021-09-18T10:12:28 IST" finished-at="2021-09-18T10:12:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.orangehrm.testcases.TC_LoginTest_001 -->
+      <class name="com.orangehrm.testcases.TC_LoginDDT_002">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.orangehrm.testcases.TC_LoginDDT_002@1a8a8f7c]" name="setup" is-config="true" duration-ms="4233" started-at="2021-09-18T10:12:29 IST" finished-at="2021-09-18T10:12:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.orangehrm.testcases.TC_LoginDDT_002@1a8a8f7c]" name="loginDDT" duration-ms="17847" started-at="2021-09-18T10:12:34 IST" data-provider="LoginData" finished-at="2021-09-18T10:12:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method status="PASS" signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.orangehrm.testcases.TC_LoginDDT_002@1a8a8f7c]" name="loginDDT" duration-ms="1534" started-at="2021-09-18T10:12:51 IST" data-provider="LoginData" finished-at="2021-09-18T10:12:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrm.testcases.TC_LoginDDT_002@1a8a8f7c]" name="tearDown" is-config="true" duration-ms="616" started-at="2021-09-18T10:12:53 IST" finished-at="2021-09-18T10:12:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangehrm.testcases.TC_LoginDDT_002 -->
     </test> <!-- OrangeHRM Test -->
   </suite> <!-- OrangeHRMDemo -->
 </testng-results>

@@ -66,3 +66,22 @@
 2021-09-11 10:39:10,096 - orangeHRM -INFO - Entered password
 2021-09-11 10:39:15,489 - orangeHRM -INFO - logged in
 2021-09-11 10:39:19,716 - orangeHRM -INFO - logged out
+2021-09-18 10:12:20,565 - orangeHRM -INFO - Url is opened
+2021-09-18 10:12:20,786 - orangeHRM -INFO - Entered username
+2021-09-18 10:12:20,834 - orangeHRM -INFO - Entered password
+2021-09-18 10:12:24,522 - orangeHRM -INFO - logged in
+2021-09-18 10:12:28,527 - orangeHRM -INFO - logged out
+2021-09-18 10:12:33,362 - orangeHRM -INFO - Url is opened
+2021-09-18 10:12:34,127 - orangeHRM -INFO - username is provided
+2021-09-18 10:12:34,167 - orangeHRM -INFO - password is provided
+2021-09-18 10:12:47,889 - orangeHRM -INFO - login passed
+2021-09-18 10:12:51,975 - orangeHRM -INFO - username is provided
+2021-09-18 10:12:52,015 - orangeHRM -INFO - password is provided
+2021-09-18 10:12:53,463 - orangeHRM -WARN - try with correct credentils
+2021-09-18 10:12:58,414 - orangeHRM -INFO - Url is opened
+2021-09-18 10:12:58,578 - orangeHRM -INFO - Entered username
+2021-09-18 10:12:58,617 - orangeHRM -INFO - Entered password
+2021-09-18 10:13:02,270 - orangeHRM -INFO - navigate to next page
+2021-09-18 10:13:05,317 - orangeHRM -INFO - clicked on APply Leave
+2021-09-18 10:13:05,340 - orangeHRM -INFO - warning message is displayed
+2021-09-18 10:13:09,285 - orangeHRM -INFO - logged out

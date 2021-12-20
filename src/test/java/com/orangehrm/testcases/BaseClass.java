@@ -3,8 +3,6 @@ package com.orangehrm.testcases;
 import com.orangehrm.Utilities.ReadConfig;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.commons.io.FileUtils;
-import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -24,18 +22,18 @@ public class BaseClass {
     public String baseURL = rconfig.getApplicationURL();
     public String userName = rconfig.getUsername();
     public String password = rconfig.getPassword();
-    public static Logger logger;
+    //public static Logger logger;
 
 
     @BeforeClass
     public void setup() {
 
-        logger = Logger.getLogger("orangeHRM");
-        PropertyConfigurator.configure("log4j.properties");
+       // logger = LogManager.getLogger("orangeHRM");
+        //PropertyConfigurator.configure("log4j.properties");
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.get(baseURL);
-        logger.info("Url is opened");
+       //   logger.info("Url is opened");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 

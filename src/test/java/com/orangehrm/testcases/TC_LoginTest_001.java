@@ -14,13 +14,13 @@ public class TC_LoginTest_001 extends BaseClass{
     public void loginTest() throws IOException, InterruptedException {
         LoginPage lp=new LoginPage(driver);
         lp.setUserName(userName);
-        logger.info("Entered username");
+      //  logger.info("Entered username");
         lp.setPassword(password);
-        logger.info("Entered password");
+      //  logger.info("Entered password");
         lp.clickSubmit();
-        logger.info("logged in");
+      //  logger.info("logged in");
         lp.clickLogout();
-        logger.info("logged out");
+     //   logger.info("logged out");
         text= driver.getTitle();
 
         if(driver.getTitle().equals("OrangeHRM"))
@@ -30,7 +30,7 @@ public class TC_LoginTest_001 extends BaseClass{
         else
         {
             captureScreen(driver,"loginTest");
-            Assert.assertTrue((false));
+            Assert.assertTrue(false);
         }
     }
 }
